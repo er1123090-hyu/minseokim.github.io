@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic portfolio for Minseo (Eric) Kim, an NLP and HCI researcher at Hanyang University.">
+    <meta name="theme-color" content="#112233">
+    <meta property="og:title" content="Minseo (Eric) Kim">
+    <meta property="og:description" content="NLP, HCI, dialogue systems, memory-augmented agents, and human-aligned language technologies.">
+    <meta property="og:type" content="website">
+    <title>Minseo (Eric) Kim</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav-shell" aria-label="Main navigation">
+        <a class="brand" href="#home" aria-label="Minseo Eric Kim home">
+          <span class="brand-mark">MK</span>
+          <span>Minseo (Eric) Kim</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle>
+          <span class="sr-only">Toggle navigation</span>
+          <span aria-hidden="true"></span>
+        </button>
+        <div class="nav-links" id="primary-navigation" data-nav-menu>
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#publications">Publications</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">NLP + HCI researcher</p>
+            <h1 id="hero-title">Building language systems that reason, remember, and collaborate with people.</h1>
+            <p class="hero-text">
+              I am a Master's student in Artificial Intelligence at Hanyang University and a member of the HYU NLP Lab,
+              advised by Prof. Taeuk Kim. My work sits at the intersection of natural language processing and
+              human-computer interaction, with a focus on dialogue, memory, agents, and human-centered evaluation.
+            </p>
+            <div class="hero-actions" aria-label="Profile links">
+              <a class="button button-primary" href="#publications">View publications</a>
+              <a class="button button-secondary" href="#contact">Contact me</a>
+            </div>
+          </div>
+
+          <aside class="profile-card" aria-label="Profile summary">
+            <img class="profile-art" src="assets/profile-mark.svg" alt="Abstract profile mark for Minseo Eric Kim">
+            <div>
+              <h2>Minseo (Eric) Kim</h2>
+              <p>Hanyang University</p>
+              <p>HYU NLP Lab</p>
+            </div>
+            <dl class="profile-list">
+              <div>
+                <dt>Focus</dt>
+                <dd>Dialogue systems, memory, agents</dd>
+              </div>
+              <div>
+                <dt>Methods</dt>
+                <dd>LLMs, retrieval, multi-agent debate</dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd><a href="mailto:er1123090@hanyang.ac.kr">er1123090@hanyang.ac.kr</a></dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section section-split" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="about-title">Human-centered NLP for useful intelligence.</h2>
+        </div>
+        <div class="section-body">
+          <p>
+            My research explores how language technologies can become more context-aware, emotionally responsive,
+            and aligned with human goals. I am especially interested in systems that can maintain useful memory,
+            adapt to domain expertise, and support richer collaboration between humans and AI agents.
+          </p>
+          <p>
+            This GitHub Pages version is based on my Google Sites profile and is designed as a fast, editable,
+            publication-oriented academic homepage.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="research" aria-labelledby="research-title">
+        <div class="section-heading">
+          <p class="section-kicker">Research interests</p>
+          <h2 id="research-title">Questions I keep returning to</h2>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card">
+            <span class="card-number">01</span>
+            <h3>Multi-agent reasoning</h3>
+            <p>Debate, collaboration, and cross-domain reasoning patterns for language agents.</p>
+          </article>
+          <article class="interest-card">
+            <span class="card-number">02</span>
+            <h3>Memory-augmented dialogue</h3>
+            <p>Long-term user modeling and memory mechanisms for more useful conversations.</p>
+          </article>
+          <article class="interest-card">
+            <span class="card-number">03</span>
+            <h3>Human-aligned frameworks</h3>
+            <p>Evaluation and interaction designs that make AI behavior more transparent and accountable.</p>
+          </article>
+          <article class="interest-card">
+            <span class="card-number">04</span>
+            <h3>Domain expert agents</h3>
+            <p>Retrieval-augmented systems that help language models operate in specialized domains.</p>
+          </article>
+          <article class="interest-card">
+            <span class="card-number">05</span>
+            <h3>Speech-language interfaces</h3>
+            <p>Multimodal interaction across speech, language, and user-facing AI workflows.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section publication-section" id="publications" aria-labelledby="publications-title">
+        <div class="section-heading">
+          <p class="section-kicker">Selected publications</p>
+          <h2 id="publications-title">Recent work</h2>
+        </div>
+
+        <div class="publication-toolbar" aria-label="Publication filter">
+          <button class="pill active" type="button" data-filter="all">All</button>
+          <button class="pill" type="button" data-filter="nlp">NLP</button>
+          <button class="pill" type="button" data-filter="hci">HCI</button>
+          <button class="pill" type="button" data-filter="industry">Industry</button>
+        </div>
+
+        <div class="publication-list" data-publications>
+          <article class="publication-card" data-tags="nlp">
+            <div class="pub-meta">
+              <span>EMNLP 2025 Main</span>
+              <span>Dialogue systems</span>
+            </div>
+            <h3>Beyond Task-Oriented and Chitchat Dialogues: Proactive and Transition-Aware Conversational Agents</h3>
+            <p>
+              Introduces TACT, a transition-aware dialogue dataset and evaluation setup for conversational agents
+              that move fluidly between task-oriented and open-ended chitchat modes.
+            </p>
+            <a href="https://aclanthology.org/2025.emnlp-main.672/" target="_blank" rel="noreferrer">Read paper</a>
+          </article>
+
+          <article class="publication-card" data-tags="nlp industry">
+            <div class="pub-meta">
+              <span>ACL 2025 Industry Track</span>
+              <span>LLM engineering</span>
+            </div>
+            <h3>ENGinius: A Bilingual LLM Optimized for Plant Construction Engineering</h3>
+            <p>
+              Presents a domain-specialized bilingual LLM for plant construction engineering, including data
+              construction, model training, benchmarks, and practical technical-document use cases.
+            </p>
+            <a href="https://aclanthology.org/2025.acl-industry.95/" target="_blank" rel="noreferrer">Read paper</a>
+          </article>
+
+          <article class="publication-card" data-tags="hci">
+            <div class="pub-meta">
+              <span>CHI 2025</span>
+              <span>Affective computing</span>
+            </div>
+            <h3>Exploring Modular Prompt Design for Emotion and Mental Health Recognition</h3>
+            <p>
+              Studies prompt modularity for recognizing emotion and mental-health signals, connecting language model
+              prompting choices with user-centered HCI concerns.
+            </p>
+            <a href="https://dl.acm.org/doi/10.1145/3706598.3713888" target="_blank" rel="noreferrer">Read paper</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section timeline-section" id="news" aria-labelledby="news-title">
+        <div class="section-heading">
+          <p class="section-kicker">News</p>
+          <h2 id="news-title">Recent updates</h2>
+        </div>
+        <ol class="timeline">
+          <li>
+            <time datetime="2025-11">Nov 2025</time>
+            <p>Presented TACT at EMNLP 2025 in Suzhou, China.</p>
+          </li>
+          <li>
+            <time datetime="2025-08">Aug 2025</time>
+            <p>Selected for a one-year National Research Foundation of Korea graduate student research grant.</p>
+          </li>
+          <li>
+            <time datetime="2025-08">Aug 2025</time>
+            <p>TACT was accepted to EMNLP 2025 Main.</p>
+          </li>
+          <li>
+            <time datetime="2025-06">Jun-Aug 2025</time>
+            <p>Selected for the AI SeoulTech Graduate Scholarship Program.</p>
+          </li>
+          <li>
+            <time datetime="2025-05">May 2025</time>
+            <p>ENGinius was accepted to ACL 2025 Industry Track.</p>
+          </li>
+          <li>
+            <time datetime="2025-05">May 2025</time>
+            <p>Presented modular prompt design work at CHI 2025 in Yokohama, Japan.</p>
+          </li>
+          <li>
+            <time datetime="2025-03">Mar 2025</time>
+            <p>Started the Master's program at HYU NLP, Hanyang University.</p>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card">
+          <div>
+            <p class="section-kicker">Contact</p>
+            <h2 id="contact-title">Research conversations are welcome.</h2>
+            <p>
+              For collaborations, paper questions, or research discussions, email is the best starting point.
+            </p>
+          </div>
+          <div class="contact-actions">
+            <a class="button button-primary" href="mailto:er1123090@hanyang.ac.kr">Email me</a>
+            <button class="button button-secondary" type="button" data-copy-email>Copy email</button>
+          </div>
+          <p class="copy-status" role="status" aria-live="polite" data-copy-status></p>
+          <ul class="social-list" aria-label="External links">
+            <li><a href="https://nlp.hanyang.ac.kr/home/members" target="_blank" rel="noreferrer">HYU NLP Lab profile</a></li>
+            <li><a href="https://scholar.google.com/citations?user=LU2HtbUAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a></li>
+            <li><a href="https://www.linkedin.com/in/minseo-eric-kim-507666294" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://sites.google.com/view/minseo-eric-kim" target="_blank" rel="noreferrer">Original Google Sites page</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Minseo (Eric) Kim. Built for GitHub Pages.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
